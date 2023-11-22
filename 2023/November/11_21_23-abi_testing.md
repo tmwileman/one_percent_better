@@ -1,4 +1,5 @@
 # ABI Testing
+#Tags: #ComputerScience #ABI #Binary #Compiler
 
 ## What is ABI
 Think of a video game console and its games. The console (think PlayStation or Xbox) has a specific way it read and plays games. Now, imagine if you tried to play a PlayStation game on Xbox. It wouldn't work because each console has it's own unique way of communicating with the games made for it. 
@@ -12,7 +13,7 @@ Applications are typically written in high-level languages like Python or Java. 
 - **Register Use:** How the program's instructions can use the computer's registers.
 - **Memory Layout:** How memory is organized and accessed.
 
-## What is ABI Testing
+## What is ABI testing
 ABI testing is the process used to verigy that a softward component conforms to the defined ABI rules. It's all about ensuring the compiled code is converted into a format that can correctly communitate with the OS and other programs. There are five key components to ABI testing:
 
 - **Compatibility Checks:** Is the compiled binary compatible with the OS. 
@@ -21,10 +22,10 @@ ABI testing is the process used to verigy that a softward component conforms to 
 - **Regression Testing:** Do changes to the code break the binary's compatability with the OS or other components.
 - **Cross-Platform Testing:** Is a program able to run on all of the platforms it needs to.
 
-## Why Is It Important
+## Why is it important
 ABI testing prevents issues like crashes or malfunctioning applications. For example, OS updates can lead to ABI incompatibilities with existing applications or drivers or libraries that are updated without maintaining ABI compatibility can break. Another consideration is hardware. Transitioning from 32-bit to 64-bit architecture could result in incompatibilities that break software functionality.
 
-## Can We Test ABI Compatibility?
+## Can we test ABI compatibility?
 Short answer is yes.
 
 - **Automated Testing Tools:** '[ABI Compliance Checker](https://lvc.github.io/abi-compliance-checker/)' and '[ABI Laboratory](https://abi-laboratory.pro/)' can automatically compare different versions of binary files to identify incompatibilities. 

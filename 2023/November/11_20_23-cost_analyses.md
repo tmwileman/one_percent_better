@@ -1,8 +1,9 @@
 # Effective Cost Analyses
+#Tags: #CostAnalysis #Finance #ResourceManagement #Investment
 
 I'm currently responsible for putting together a project's cost analysis. This is the first one I've done and while I have an idea of the basic elements, I am not sure what makes a cost analysis truly effective. 
 
-# Document's Purpose
+# Document's purpose
 This is a decision aid. Should management greenlight further development on this project based on the expected costs and benefits. If I were in a position to make a decision based on this document, high level questions I'd want answered are:
 
 - **What is the problem?** - What is the current situation? Why is it bad? **How** bad is it (quantify)? This needs to provide plenty of context but be suscinct at the same time. I want who ever is reading this to **feel** the pain and want to help us solve the issue. 
@@ -11,14 +12,14 @@ This is a decision aid. Should management greenlight further development on this
 - **Benefits of solution** - How does the proposed solution fix the problem. Ideally (I can't think an instance where this wouldn't be the case) there is cost savings component. Possible benefits include expected revenue from customers, estimated hours of work saved (translated into dollars), risk reductions, or efficiency gians. Again, translating all to dollars is almost certainly ideal. 
 - **Possible risks** - How might the analysis be wrong and what are mitigating steps we can take to identify and counteract those risks. Again, I view this as more of an element that builds trust in the thoroughness of the analysis. "You should trust me because I've thought of all these things and have plans for all these contingencies."
 
-# What I Need to Find Out
+# What I need to find out
 My analysis has to do with cloud computing costs. I've spun up personal computing instances on AWS and other cloud providers for small data science projects but haven't done so for large, production level projects. 
 
 Thus far my research into how much this project might cost is based on publically available pricing sheets. I'm simply choosing the GPU-based instance that meets my expected requirements and extrapolating the costs out for a year based on the hourly price. 
 
 I have a feeling this is incomplete but unsure how to improve. For example, do I need additional compute elements like an API gateway? Is this price subject to change over the course of the year or could it change? Can we get a discount on a second instance if we need it? What are some commone issues others more familiar with this work would recommend
 
-# Insights Gained From Research
+# Insights gained from research
 - [Investopedia](https://www.investopedia.com/terms/c/cost-benefitanalysis.asp)
     - More complex cost-benefit analysis may incorporate sensitivity analysis or discounting of cashflows
     - Sensitivity Analysis - How slight changes in estimates may impact outcomes.
