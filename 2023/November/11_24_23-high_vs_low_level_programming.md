@@ -14,7 +14,6 @@ Low-level coding is like using those tiny, detailed Lego pieces. With these you 
 In sum, high-level coding is easier and more about quickly building cool stuff while low-level coding is more about having detailed control but requires more effort and knowledge.
 
 # High-level coding languages
-
 - **Abstracted and user-friendly** - High-level languages are more abstract. This means they are closer to human language and further from machine language (the language that computers understand directly). Languages like Python, JavaScript, and Java fall into this category. They are designed to be easy to read and write, making them more user-friendly.
 - **Less control over hardware** - Languages like Python and JavaScript manage a lot of the complex details for you, like memory management. This makes them easier to use but gives you less control over how your program interacts witht he computer's hardware.
 - **Portability** - High-level code is generally more portable, meaning you can run it on different types of computers without many changes, This is because it's often interpreted or compliled into machine language by another program, rather than being written directly for a specific type of hardware.
