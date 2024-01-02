@@ -2,7 +2,7 @@ Current Streak: 1
 All Time Best Streak: 11
 All Time Total: 16
 
-# supervised_vs_unsupervised
+# Supervised vs Unsupervised
 #Tags: #Supervised #Unsupervised #Interview
 
 # Interview Question
