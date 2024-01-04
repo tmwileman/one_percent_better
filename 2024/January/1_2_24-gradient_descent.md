@@ -4,7 +4,9 @@ All Time Total: 17
 
 # Gradient Descent
 #Tags: #GradientDescent #Interview
-
+[[one percent better]]
+[[ai]]
+[[ml]]
 # Interview Question
 What is a good answer to the question: Explain the concept of gradient descent and its role in optimizing ML models?
 

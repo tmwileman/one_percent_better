@@ -4,7 +4,9 @@ All Time Total: 16
 
 # Supervised vs Unsupervised
 #Tags: #Supervised #Unsupervised #Interview
-
+[[one percent better]]
+[[ai]]
+[[ml]]
 # Interview Question
 What's the difference between supervised and unsupervised learning
 
