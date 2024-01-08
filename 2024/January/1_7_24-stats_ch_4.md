@@ -24,3 +24,10 @@ Lower variability is associated with more stable distributions whereas higher va
 - **Sum of squares** is the sum of squared deviation scores.
 ## Degrees of Freedom
 - **Degrees of freedom (df)** refers to the number of values that are free to vary. df is used in sample calculations because we're estimating some unknown characteristic of a population. Degrees of freedom are directly linked to the sample size and the number of parameters estimated. A higher number of degrees of freedom generally indicates a larger sample size or fewer constraints, leading to more reliable and accurate estimates. When calculating the sample variance or standard deviation, the formula typically divides by `n - 1` rather than `n`, where `n` is the sample size. The degrees of freedom in this case are `n - 1`. This adjustment is made because one degree of freedom is lost by estimating the mean from the data.
+
+- x = 2,4  
+- y = 1,2,2,2,4,4,4,5
+
+- These have the same mean and variance, so if you wanted to test the hypothesis that their population mean=3 using a t-test, you'd get the exact same test if degrees of freedom were not a thing. But intuitively you see that that doesn't make sense. Sample y is much more informative as it contains 4 times more information (observations). Your test should reflect that: the test that uses sample y should give you a narrower confidence interval because you're "more sure that you're right". This is what degrees of freedom are for, **they are a measure of how much information is contained in your test.** The df for a t-test using x would be 1, while for y it would be 7. If you look at the t distribution, it gets "fatter" (more spread out) as the degrees of freedom get smaller. The more information (observations) you have, the narrower the distribution and the more exact your predictions.
+
+- Different tests use different degrees of freedom, but you'll see that more degrees of freedom make for more exact predictions. Why different distributions require different degrees of freedom is an algebraic reason. There's plenty of material on it (Youtube).
