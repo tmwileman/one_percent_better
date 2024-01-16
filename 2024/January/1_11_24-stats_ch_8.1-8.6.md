@@ -3,7 +3,7 @@ All Time Best Streak: 11
 All Time Total: 26
 
 Convolutional Neural Network
-#Tags: #statistics #data #brilliantatbasics #regression
+#Tags: #statistics #data #brilliantatbasics #populations #samples
 # NEW FOCUS
 I need to reengage the basics of my profession. To do this, I'm going to work my way through some text books foundational to being a data scientist. First is Statistics (9th Edition) by Robert S. Witte and John S. Witte. 
 
